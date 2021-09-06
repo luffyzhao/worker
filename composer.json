@@ -1,0 +1,21 @@
+{
+    "name": "luffyzhao/worker",
+    "description": "worker",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luffy Zhao",
+            "email": "luffyzhao@vip.126.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LWorker\\": "src/"
+        }
+    }
+}
